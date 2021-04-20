@@ -1,6 +1,8 @@
 #!/bin/sh
 echo ""
 echo "========= Create new Reopo Now =======>"
+touch .gitignore
+echo "node_modules/" >> .gitignore
 git init
 echo ""
 echo "Enter README title:"
