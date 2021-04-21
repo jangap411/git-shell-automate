@@ -3,6 +3,7 @@ echo ""
 echo "========= Create new Reopo Now =======>"
 touch .gitignore
 echo "node_modules/" >> .gitignore
+echo "create_repo.sh" >> .gitignore
 git init
 echo ""
 echo "Enter README title:"
